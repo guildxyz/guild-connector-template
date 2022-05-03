@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  guild-connector-template:
+    container_name: guild-connector-template
+    build:
+      context: .
+    image: guild-connector-template:latest
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - 9000:9000
