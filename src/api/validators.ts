@@ -17,9 +17,8 @@ const bodyNumberIdValidator = (fieldName: string) =>
 
 export default {
   paramIdValidator,
-  paramDiscordId: paramIdValidator,
   bodyIdValidator,
-  bodyNumberIdValidator,
   bodyStringValidator,
   bodyArrayValidator,
+  bodyNumberIdValidator,
 };

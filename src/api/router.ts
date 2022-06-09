@@ -1,5 +1,6 @@
 import { Router } from "express";
 import config from "../config";
+// import controller from "./controller";
 
 const createRouter = () => {
   const router: Router = Router();
