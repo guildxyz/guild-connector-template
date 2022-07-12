@@ -2,7 +2,7 @@ import { AxiosResponse } from "axios";
 import { ErrorResult } from "../types";
 import logger from "./logger";
 
-const logBackendError = (error) => {
+const logBackendError = (error: any) => {
   const errorData = error.response?.data;
   const errors = errorData?.errors;
 
